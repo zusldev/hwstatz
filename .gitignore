@@ -1,0 +1,10 @@
+*.exe
+*.obj
+*.o
+*.res
+*.pdb
+*.ilk
+*.ini
+AMDFamily17.bin
+build/
+.vs/

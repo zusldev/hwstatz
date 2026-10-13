@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="title desc">
+  <title id="title">Coste medido de hwstatz frente a un frame</title>
+  <desc id="desc">Barras lineales en milisegundos: muestra estable 0.38, disco 7.98, un frame a 60 fps 16.67, primera muestra 40. Medido en un Ryzen 7 5700G con RTX 4060 el 13 de octubre de 2026.</desc>
+  <rect width="880" height="360" fill="#141210"/>
+  <rect x="0.5" y="0.5" width="879" height="359" fill="none" stroke="#3A342C"/>
+  <text x="32" y="42" fill="#F4F1EA" font-family="Segoe UI, sans-serif" font-size="20">Coste medido en este PC</text>
+  <text x="32" y="66" fill="#8A8175" font-family="Segoe UI, sans-serif" font-size="13">Ryzen 7 5700G, RTX 4060, 13 oct 2026. Escala lineal, 0 a 40 ms.</text>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#F4F1EA">
+    <text x="32" y="118">Muestra estable</text>
+    <text x="32" y="168">Disco, cada 30 s</text>
+    <text x="32" y="218">Un frame a 60 fps</text>
+    <text x="32" y="268">Primera muestra</text>
+  </g>
+  <g>
+    <rect x="210" y="100" width="5" height="22" fill="#E7E1D6"/>
+    <rect x="210" y="150" width="112" height="22" fill="#E7E1D6"/>
+    <rect x="210" y="200" width="233" height="22" fill="#8A8175"/>
+    <rect x="210" y="250" width="560" height="22" fill="#3A342C" stroke="#E7E1D6"/>
+  </g>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#F4F1EA">
+    <text x="224" y="116">0.38 ms</text>
+    <text x="330" y="166">8.0 ms</text>
+    <text x="452" y="216">16.7 ms, referencia</text>
+    <text x="780" y="266">40 ms</text>
+  </g>
+  <text x="32" y="318" fill="#8A8175" font-family="Segoe UI, sans-serif" font-size="13">0.38 ms es cerca del 2% de un solo frame, y ocurre una vez por segundo. La barra gris es el frame, no hwstatz.</text>
+  <text x="32" y="338" fill="#8A8175" font-family="Segoe UI, sans-serif" font-size="13">No hay una captura de FPS dentro de un juego. El dato es el tiempo del lector.</text>
+</svg>
